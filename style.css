@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
 /* estilo geral - header e footer */
 
@@ -43,7 +44,7 @@ header {
     width: 60px;
     height: 60px;
     color: #e9a209;
-    
+
 }
 
 #name_logo {
@@ -71,6 +72,72 @@ header {
 
 
 /* estilo curiosidades */
+
+
+.container_h2 {
+
+    margin: 100px 45px 45px 20px;
+    background-color: #14463A;
+    padding: 15px;
+    border-radius: 30px 30px 30px 30px;
+
+}
+
+.h2_curiosidade {
+    display: flex;
+    align-items: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    color: #ffb91d;
+}
+
+.container_curiosidade_left,
+.container_curiosidade_right {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 13rem;
+    color: #361500;
+
+}
+
+.container_curiosidade_left {
+    flex-direction: row-reverse;
+
+
+}
+
+.img_curiosidade_left,
+.img_curiosidade_right {
+    height: 17rem;
+    width: 25rem;
+    max-width: 100%;
+
+}
+
+.img_curiosidade_left {
+    border-radius: 0px 100px 100px 0px;
+}
+
+.img_curiosidade_right {
+    border-radius: 100px 0px 0px 100px;
+    padding: 0;
+    margin: 0;
+}
+
+.curiosidade_text {
+    margin-top: 15px;
+    margin: 10px 50px 50px 50px;
+    ;
+}
+
+.nome_curiosidade_Right,
+.nome_curiosidade {
+    font-size: 2rem;
+    margin-left: 50px;
+
+}
+
 
 
 
