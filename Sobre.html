@@ -4,71 +4,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curiosidades</title>
+    <title>Sobre</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <header>
-        <div>
-            logo
-        </div>
-
-        <nav>
-            <ul>
-                <li><a href="./index.html">HOME</a></li>
-                <li><a href="./cardapio.html">CARDÁPIO</a></li>
-                <li><a href="./Curiosidades.html">CURIOSIDADES</a></li>
-                <li><a href="">SOBRE</a></li>
-                <li><a href="./contato.html">CONTATO</a></li>
-            </ul>
-        </nav>
-
-        <div>
-            <button>
-                PEÇA AGORA
-            </button>
-        </div>
-    </header>
-    <main>
-        <article>
-            <h2>Conheça um pouco sobre NÓS!</h2>
-            <p>No nosso café, a essência é a simplicidade aliada à modernidade. Aqui, buscamos proporcionar uma
-                experiência autêntica para os amantes do café, sem complicações desnecessárias.
-
-                Localizado estrategicamente no coração da cidade, nosso espaço é um refúgio urbano para aqueles que
-                valorizam a qualidade e a praticidade. Ao entrar, você será envolvido por uma atmosfera contemporânea e
-                acolhedora, onde o aroma fresco do café recém-torrado é irresistível.
-
-                Nosso compromisso com a simplicidade reflete-se em tudo o que oferecemos. Selecionamos cuidadosamente os
-                melhores grãos de café, priorizando produtores comprometidos com práticas sustentáveis ​​e de origem
-                única. Cada xícara de café que servimos é uma homenagem à qualidade e à paixão que dedicamos a cada
-                detalhe.
-
-                Além de uma variedade de cafés artesanais, nossa loja oferece uma seleção de produtos relacionados ao
-                café, desde grãos frescos até acessórios de preparo. Nossa equipe de baristas, apaixonada pelo que faz,
-                está sempre disponível para compartilhar seu conhecimento e ajudá-lo a encontrar o café perfeito para o
-                seu paladar.
-
-                Seja para uma pausa rápida durante o dia ou para uma tarde relaxante com amigos, convidamos você a nos
-                visitar e experimentar a simplicidade e a modernidade da nossa loja de café. Aqui, cada xícara é uma
-                jornada sensorial, uma experiência que esperamos que você aproveite ao máximo.</p>
-        </article>
-        <section>
-            <h2>Conheça os fundadores</h2>
-
+    <header id="header">
+        <nav id="navbar">
             <div>
-                <img src="" alt="">
-                <p></p>
-                <a href="">Instagram</a>
-                <a href="">Twitter</a>
+                <a id="nav_logo_link" class="" href="">
+
+                    <p id="name_logo">Paladares café</p>
+                </a>
+
             </div>
 
+            <ul id="nav_list">
+                <li class="nav-item"><a href="./index.html">Home</a></li>
+                <li class="nav-item"><a href="./cardapio.html">Cardápio</a></li>
+                <li class="nav-item"><a href="./Curiosidades.html">Curiosidades</a></li>
+                <li class="nav-item"><a href="./Sobre.html">Sobre</a></li>
+                <li class="nav-item"><a href="./contato.html">Contato</a></li>
+            </ul>
 
             <div>
-                <img src="" alt="">
-                <p></p>
-                <a href="">Instagram</a>
-                <a href="">Twitter</a>
+                <button id="btn-peca-agora">
+                    PEÇA AGORA
+                </button>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <article id="Container_Sobre">
+
+
+            <div class="Container_h2_sobre">
+                <h2 class="h2_Sobre">Conheça um pouco sobre NÓS!</h2>
+            </div>
+
+            <div id="Sobre_Text">
+                <p>No nosso café, a essência é a simplicidade aliada à modernidade. Aqui, buscamos proporcionar uma
+                    experiência autêntica para os amantes do café, sem complicações desnecessárias.
+
+                    Localizado estrategicamente no coração da cidade, nosso espaço é um refúgio urbano para aqueles que
+                    valorizam a qualidade e a praticidade. Ao entrar, você será envolvido por uma atmosfera
+                    contemporânea e
+                    acolhedora, onde o aroma fresco do café recém-torrado é irresistível.
+
+                    Nosso compromisso com a simplicidade reflete-se em tudo o que oferecemos. Selecionamos
+                    cuidadosamente os
+                    melhores grãos de café, priorizando produtores comprometidos com práticas sustentáveis ​​e de origem
+                    única. Cada xícara de café que servimos é uma homenagem à qualidade e à paixão que dedicamos a cada
+                    detalhe.
+
+                    Além de uma variedade de cafés artesanais, nossa loja oferece uma seleção de produtos relacionados
+                    ao
+                    café, desde grãos frescos até acessórios de preparo. Nossa equipe de baristas, apaixonada pelo que
+                    faz,
+                    está sempre disponível para compartilhar seu conhecimento e ajudá-lo a encontrar o café perfeito
+                    para o
+                    seu paladar.
+
+                    Seja para uma pausa rápida durante o dia ou para uma tarde relaxante com amigos, convidamos você a
+                    nos
+                    visitar e experimentar a simplicidade e a modernidade da nossa loja de café. Aqui, cada xícara é uma
+                    jornada sensorial, uma experiência que esperamos que você aproveite ao máximo.</p>
+            </div>
+        </article>
+
+        <section>
+            <div class="Container_h2_sobre">
+                <h2 class="h2_Sobre">Conheça os Fundadores</h2>
+            </div>
+
+            <div id="Container_Perfis">
+                <div id="perfil1">
+                    <img src="./img/Sobre.img/seem perfil.png" alt="Foto de perfil" class="Foto_perfil">
+                    <h3 class="nome_perfil">NOME</h3>
+                    <p class="Text_Perfil">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, ex? Quaerat ullam sed fugiat
+                        soluta itaque doloribus eum dolore, qui omnis laboriosam ratione? Excepturi aliquid similique
+                        eveniet repudiandae, aspernatur sit! </p>
+                    <div class="redes_perfis">
+                        <a href=""><img src="./img/icons/icons8-instagram.svg" alt="logo do Instagram"
+                                class="redes_sobre"></a>
+                        <a href=""><img src="./img/icons/icons8-twitter.svg" alt="logo do X" class="redes_sobre"></a>
+                    </div>
+
+                </div>
+
+
+                <div id="perfil2">
+                    <img src="./img/Sobre.img/seem perfil.png" alt="Foto de Perfil" class="Foto_perfil">
+                    <h3 class="nome_perfil">NOME</h3>
+                    <p class="Text_Perfil" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus inventore consequuntur itaque
+                        sint aspernatur quidem enim ab, amet repellat quas vitae architecto, nihil deserunt consectetur
+                        earum neque nostrum doloribus vel.</p>
+
+                    <div class="redes_perfis">
+                        <a href=""><img src="./img/icons/icons8-instagram.svg" alt="logo do Instagram"
+                                class="redes_sobre"></a>
+                        <a href=""><img src="./img/icons/icons8-twitter.svg" alt="logo do X" class="redes_sobre"></a>
+                    </div>
+
+                </div>
+
             </div>
 
         </section>
@@ -78,12 +118,12 @@
         <div>
             <p>Funcionamento</p>
             <p> segunda...... 08:00 - 20:00<br>
-                terça.........   08:00 - 20:00<br>
-                quarta.......   08:00 - 20:00<br>
-                quinta........  08:00 - 20:00<br>
+                terça......... 08:00 - 20:00<br>
+                quarta....... 08:00 - 20:00<br>
+                quinta........ 08:00 - 20:00<br>
                 sexta.......... 08:00 - 20:00<br>
-                sábado.......   07:00 - 12:00<br>
-                domingo.....   07:00 - 12:00
+                sábado....... 07:00 - 12:00<br>
+                domingo..... 07:00 - 12:00
             </p>
         </div>
 
@@ -106,8 +146,8 @@
             <a href=""><img src="./img/icons/icons8-twitter.svg" alt=""></a>
             <a href=""><img src="./img/icons/icons8-facebook-novo.svg" alt=""></a>
         </div>
-       
-       <span> Todos os direitos reservados &copy; 2024 </span>
+
+        <span> Todos os direitos reservados &copy; 2024 </span>
     </footer>
 </body>
 
