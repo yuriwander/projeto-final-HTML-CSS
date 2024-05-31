@@ -5,67 +5,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <header>
-        <div>
-            logo
-        </div>
+    <header class="header_outros">
+        <nav id="navbar">
+            <div>
+                <a id="nav_logo_link" class="" href="">
 
-        <nav>
-            <ul>
-                <li><a href="./index.html">HOME</a></li>
-                <li><a href="./cardapio.html">CARDÁPIO</a></li>
-                <li><a href="./Curiosidades.html">CURIOSIDADES</a></li>
-                <li><a href="./Sobre.html">SOBRE</a></li>
-                <li><a href="">CONTATO</a></li>
+                    <p id="name_logo">Paladares café</p>
+                </a>
+
+            </div>
+
+            <ul id="nav_list">
+                <li class="nav-item"><a href="./index.html">Home</a></li>
+                <li class="nav-item"><a href="./cardapio.html">Cardápio</a></li>
+                <li class="nav-item"><a href="./Curiosidades.html">Curiosidades</a></li>
+                <li class="nav-item"><a href="./Sobre.html">Sobre</a></li>
+                <li class="nav-item"><a href="./contato.html">Contato</a></li>
             </ul>
-        </nav>
 
-        <div>
-            <button>
-                PEÇA AGORA
-            </button>
-        </div>
+            <div>
+                <button id="btn-peca-agora">
+                    PEÇA AGORA
+                </button>
+            </div>
+
+        </nav>
     </header>
     <main>
-        <h2>Entre em contato com nós!</h2>
-        <div>
-            <h3>Redes Sociais</h3>
-            <a href="">Instagram</a>
-            <a href="">Twitter</a>
+        <div class="Container_h2_contato">
+            <h2 class="h2_Contato">Entre em contato!</h2>
         </div>
 
-        <div>
-            <h3>Endereço do Café</h3>
-            <p></p>
+        <section id="conteudo_container">
+            <div>
+                <div class="container_h3_contato">
+                    <h3 class="h3_contato">Redes Sociais</h3>
+                </div>
+                <ul id="lista_redes">
+                    <li><a href="">Instagram</a></li>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">Facebook</a></li>
+                    <li><a href="">Treads</a></li>
+                    <li><a href="">Youtube</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <div class="container_h3_contato">
+                    <h3 class="h3_contato">Endereço do Café</h3>
+                </div>
+                <div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3969.098235886653!2d-35.20926817116396!3d-5.841776800000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1717182435773!5m2!1spt-BR!2sbr"
+                        width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+        </section>
+        <div class="Container_h2_contato">
+            <h2 class="h2_Contato">Mande sua mensagem pra gente!</h2>
         </div>
 
-        <h2>Mande sua mensagem pra gente</h2>
 
-        <form action="">
-
-            <input type="text" name="Nome" placeholder="Nome">
-            <input type="email" name="E-mail" placeholder="E-mail">
+        <form action="" id="meu_formulario">
+            <div id="nome_email">
+                <input type="text" name="Nome" placeholder="Nome" id="nome_form">
+            <input type="email" name="E-mail" placeholder="E-mail" id="email_form">
+            </div>
             
-            <input type="text" name="mensagem" placeholder="Deixe sua mensagem" >
-
+             <div>
+                <input type="text" name="mensagem" placeholder="Deixe sua mensagem" id="Mensagem_form">
+             </div>
             
-             
+            <button>Enviar</button>
+
         </form>
+
 
     </main>
     <footer>
         <div>
             <p>Funcionamento</p>
             <p> segunda...... 08:00 - 20:00<br>
-                terça.........   08:00 - 20:00<br>
-                quarta.......   08:00 - 20:00<br>
-                quinta........  08:00 - 20:00<br>
+                terça......... 08:00 - 20:00<br>
+                quarta....... 08:00 - 20:00<br>
+                quinta........ 08:00 - 20:00<br>
                 sexta.......... 08:00 - 20:00<br>
-                sábado.......   07:00 - 12:00<br>
-                domingo.....   07:00 - 12:00
+                sábado....... 07:00 - 12:00<br>
+                domingo..... 07:00 - 12:00
             </p>
         </div>
 
@@ -88,8 +120,8 @@
             <a href=""><img src="./img/icons/icons8-twitter.svg" alt=""></a>
             <a href=""><img src="./img/icons/icons8-facebook-novo.svg" alt=""></a>
         </div>
-       
-       <span> Todos os direitos reservados &copy; 2024 </span>
+
+        <span> Todos os direitos reservados &copy; 2024 </span>
     </footer>
 </body>
 
