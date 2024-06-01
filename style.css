@@ -61,9 +61,20 @@
     text-decoration: none;
     color: #FFFFFF;
     font-weight: 600;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+.nav-item a:hover {
+    color: #e9a209;
+    border-bottom: 1px solid;
+    padding-bottom: 0.5rem;
+    font-size: 18px;
 }
 
 #btn-peca-agora {
+    width: 130px;
+    height: 50px;
     background: #fff;
     color: #0D2F26;
     padding: 10px 10px;
@@ -71,8 +82,41 @@
     cursor: pointer;
     margin-top: 20px;
     border-radius: 30px;
+    transition: background 0.5s;
 }
 
+#btn-peca-agora:hover,
+#btn-peca-agora:focus {
+    background: #e9a209;
+}
+
+#section1 {
+
+}
+
+
+.footer {
+    width: 100%;
+    height: 200px;
+    padding: 28px 8%;
+    background-color: #14463A;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.funcionamento {
+    
+}
+
+.copyright {
+    text-align: center;
+}
 
 /* estilo index */
 
@@ -126,9 +170,27 @@
 #tipos-de-torra {
     display: flex flex-wrap:;
     background-color: #FBEEE5;
+    width: 200%;
+    height: 400px;
+    
 }
 
-#torra-titulo {}
+#torra-titulo {
+    text-align: center;
+}
+
+.torra-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-clara {
+    background: lightblue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
 
 /* estilo cardapio */
 
