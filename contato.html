@@ -49,11 +49,10 @@
                     <h3 class="h3_contato">Redes Sociais</h3>
                 </div>
                 <ul id="lista_redes">
-                    <li><a href="">Instagram</a></li>
-                    <li><a href="">Twitter</a></li>
-                    <li><a href="">Facebook</a></li>
-                    <li><a href="">Treads</a></li>
-                    <li><a href="">Youtube</a></li>
+                    <a id="insta" href="">Instagram</a>
+                    <a id="face" href="">Facebook</a>
+                    <a id="twit" href="">Twitter</a>
+                    <a id="you" href="">YouTube</a>
                 </ul>
             </div>
 
@@ -76,18 +75,24 @@
 
 
         <form action="" id="meu_formulario">
-            <div id="nome_email">
-                <input type="text" name="Nome" placeholder="Nome" id="nome_form">
-            <input type="email" name="E-mail" placeholder="E-mail" id="email_form">
+            <div id="nome">
+                <label for="nome">Nome</label>
+                <input type="text" name="Nome" placeholder="Nome" id="nome_form" maxlength="600">
             </div>
-            
-             <div>
-                <input type="text" name="mensagem" placeholder="Deixe sua mensagem" id="Mensagem_form">
+            <div id="email">
+                <label for="email">Email</label>
+                <input type="email" name="E-mail" placeholder="E-mail" id="email_form">
+            </div>
+             <div id="texto">
+                <label for="msg">Mensagem</label>
+                <textarea name="msg" id="msg" rows="10"></textarea>
              </div>
-            
-            <button>Enviar</button>
-
+            <div>
+                
+                <input type="submit" value="enviar">
+            </div>
         </form>
+        
 
 
     </main>

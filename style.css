@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dorsa&display=swap');
 
 /* estilo geral - header e footer ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 
@@ -56,7 +57,10 @@
 }
 
 #name_logo {
-    font-family: Bitter, serif;
+    font-family: "Dorsa", sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #nav_list {
@@ -68,7 +72,9 @@
 .nav-item a {
     text-decoration: none;
     color: #FFFFFF;
-    font-weight: 600;
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-style: normal;
     cursor: pointer;
     transition: background 0.5s;
 }
@@ -98,17 +104,16 @@
     background: #e9a209;
 }
 
-#section1 {
-
-}
-
 
 .footer {
     width: 100%;
     height: 200px;
     padding: 28px 8%;
     background-color: #14463A;
-    font-size: 14px;
+    font-family: "Barlow", sans-serif;
+     font-weight: 300;
+    font-style: normal;
+    font-size: 12px;
     color: #FFFFFF;
     margin-top: 0px;
 }
@@ -142,13 +147,20 @@
 }
 
 #novos-sabores {
-    font-family:
-    font-weight:;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 36px;
 }
 
 #palavra-paladar {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 36px;
     color: #e9a209;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 #img-cafe-grao {
@@ -173,12 +185,30 @@
 #nossos-cafes {
     margin-top: 320px;
     margin-left: 300px;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 36px;
+}
+
+#nossos-cafes span {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 36px;
+    font-weight: 400;
 }
 
 #frase-nosso-cafe {
     margin-top: 370px;
-    margin-left: -200px;
+    margin-left: -250px;
     text-align: justify;
+    font-size: 20px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    
 }
 
 
@@ -193,7 +223,22 @@
 
 #torra-titulo {
     text-align: center;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 36px;
+    
 }
+
+#torra-titulo span {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 36px;
+    font-weight: 400;
+}
+
 
 .torra-container {
     display: flex;
@@ -201,6 +246,7 @@
     width: 100%;
     height: 400px;
     padding-top: 50px;
+    gap: 25px;
     
 }
 
@@ -212,11 +258,13 @@
 	border-radius: 50%;
 	background-color: #C68B59;
     color: #fff;
-    
 }
 
 #texto-clara {
     color: #C68B59;
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .box-media {
@@ -231,6 +279,9 @@
 
 #texto-media {
     color: #865439;
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .box-media-escura {
@@ -245,6 +296,9 @@
 
 #texto-media-escura {
     color: #402218;
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .box-escura {
@@ -259,6 +313,9 @@
 
 #texto-escura {
     color: #361500;
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .texto-tipos-de-torra {
@@ -276,13 +333,27 @@
     background-color: #fbeee5;
     width: 100%;
     height: px;
+    padding-bottom: 100px;
 
 }
 
 .nosso-cardapio {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 36px;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 50px;
+}
+
+.nosso-cardapio span {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
 }
 
 .box-menu {
@@ -290,11 +361,36 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     justify-items: center;
+    text-align: center;
     gap: 150px;
-    
-    
 }
 
+.box-menu h3 {
+    font-family: "Barlow", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 10px;
+}
+
+.box-menu p {
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    padding: 20px;
+}
+
+.box-menu a {
+    font-family: "Barlow", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.produto {
+    
+}
 
 
 .produto img {
@@ -339,8 +435,10 @@
 
 .h2_curiosidade {
 
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: 1000;
+    font-family: "Barlow", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
     color: #361500;
 }
 
@@ -381,17 +479,28 @@
 .curiosidade_text {
     margin-top: 15px;
     margin: 10px 50px 50px 50px;
-    ;
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .nome_curiosidade_Right,
 .nome_curiosidade {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-left: 50px;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 
 }
 
 /* estilo sobre -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+#main-sobre {
+    margin-bottom: 20px;
+}
+
 .Container_h2_sobre {
     display: flex;
     margin: 60px auto 30px;
@@ -401,17 +510,18 @@
 }
 
 .h2_Sobre {
-    font-size: 2rem;
+    font-family: "League Spartan", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
     color: #361500;
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: 1000;
 
 }
 
 #Sobre_Text {
     padding: 10px 150px 50px;
     color: #361500;
-    text-align: center;
+    text-align: justify;
     font-size: 20px;
 }
 
@@ -463,14 +573,22 @@
 
 .nome_perfil {
     color: #FFFFFF;
-    font-family: "Josefin Sans", sans-serif;
+    font-size: 18px;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .Text_Perfil {
     color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
     padding: auto 20px;
 
 }
+
 
 
 /* estilo contato ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -485,16 +603,17 @@
 }
 
 .h2_Contato {
-    font-size: 2rem;
+    font-size: 36px;
     color: #361500;
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: 1000;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #conteudo_container {
     display: flex;
     margin: auto 10%;
-    
     justify-content: space-between;
 }
 
@@ -509,22 +628,69 @@
 .h3_contato {
     color: #FFFFFF;
     text-align: center;
+    font-weight: 300;
 
 }
 
 #lista_redes{
-  list-style: none;
-  text-align: center;
-
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    list-style: none;
+    text-align: center;
 }
 
-#meu_formulario{
+#lista_redes a {
+    color: #fff;
+    border-radius: 30px;
+    padding: 7px;
+    margin-bottom: 15px;
+}
+
+#insta {
+    background-color: #6200eaa6;
+}
+
+#face {
+    background-color: #3f53b593;
+}
+
+#twit {
+    background-color: #03a8f4a8;
+}
+
+#you {
+    background-color: #ff3c00a7;
+}
+
+form div {
     display: flex;
-   border: solid;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
    
 }
 
-#nome_email{   
+form input, form textarea {
+    outline: unset;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #361500;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+form input:hover, form textarea:hover {
+    background-color: #fbeee5;
+}
+
+form input[type=submit] {
+    color: #fff;
+    background-color: #14463A;
+}
+
+form input[type=submit]:hover {
+    background-color: #e9a209;
 }
 
 /* media para responsividade-Styles for mobile and tablets */
