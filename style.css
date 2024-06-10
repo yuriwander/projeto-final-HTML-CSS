@@ -15,10 +15,14 @@
     box-sizing: border-box;
 }
 
+body {
+
+}
+
 #header {
     width: 100%;
     height: 200px;
-    padding: 28px 8%;
+    padding: 28px 8% 50px;
     background-color: #0D2F26;
 }
 
@@ -27,8 +31,6 @@
     background-color: #0D2F26;
     padding: 28px 8% 50px;
     width: 100%;
-
-
 }
 
 #navbar {
@@ -109,7 +111,8 @@
     width: 100%;
     height: 200px;
     padding: 28px 8%;
-    background-color: #14463A;
+    ackground-color: #14463A;
+    background-image: linear-gradient(to bottom, #0D2F26, #123d32);
     font-family: "Barlow", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -138,7 +141,7 @@
     width: 100%;
     height: 200px;
     padding: 28px 8%;
-    background-image: linear-gradient(to bottom, #0D2F26, #0D2F26);
+    background-image: linear-gradient(to bottom, #0D2F26, #15483a);
     color: #fff;
     font-size: 36px;
     position: relative;
@@ -176,7 +179,8 @@
 #img-graos {
     width: 400px;
     height: 300px;
-    margin-top: 320px;
+    margin-top: 280px;
+    margin-bottom: 20px;
 
 }
 
@@ -445,12 +449,13 @@
     position: relative;
     margin-top: 8rem;
     color: #361500;
-
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .container_curiosidade_left {
     flex-direction: row-reverse;
-
+    background-color: #fbede5;
 
 }
 
@@ -470,6 +475,7 @@
     border-radius: 100px 0px 0px 100px;
     padding: 0;
     margin: 0;
+    margin-bottom: 20px;
 }
 
 .curiosidade_text {
@@ -495,6 +501,11 @@
 
 #main-sobre {
     margin-bottom: 20px;
+}
+
+#Container_Sobre {
+    background-color: #fbede5;
+    padding-top:10px;
 }
 
 .Container_h2_sobre {
